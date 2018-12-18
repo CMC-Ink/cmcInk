@@ -1,0 +1,57 @@
+svg {
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    width: 50%;
+    height: 50%;
+    fill: red;
+    animation:color 10s linear infinite;
+    -webkit-animation: color 10s linear infinite;
+}
+
+@keyframes color {
+    0%{
+        fill: red;
+    }
+    12%{
+        fill: orange;
+    }
+    24%{
+        fill: yellow;
+    }
+    36%{
+        fill: green;
+    }
+    48%{
+        fill: blue;
+    }
+    60%{
+        fill: indigo;
+    }
+    72%{
+        fill: purple;
+    }
+    80%{
+        fill: #ff6ebd;
+    }
+}
+
+#heartTwo {
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    width: 50%;
+    height: 50%;
+    fill: red;
+    animation:move 10s linear infinite;
+    -webkit-animation: color 10s linear infinite;
+}
+
+@keyframes move {
+    0%, 100% {
+        top: 70%
+    }
+    50% {
+        top: 70%
+    }
+}

@@ -1,0 +1,13 @@
+body {
+    background-color: gray;
+}
+table {
+    font-family: times new roman;
+    border-collapse: collapse;
+    width: 30%;
+}
+td {
+    border: 1px solid gray;
+    text-align: center;
+    font-size: 30px;
+}
